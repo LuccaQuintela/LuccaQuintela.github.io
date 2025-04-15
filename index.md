@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Lucca Quintela Portfolio"
-header: "Lucca Quintela
+header: "Lucca Quintela"
 caption: "My Personal Software Engineering Portfolio"
 ---
 
