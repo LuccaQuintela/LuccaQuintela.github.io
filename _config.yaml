@@ -1,0 +1,7 @@
+title: Lucca Quintela Portfolio
+description: Showcasing My Technical Projects
+baseurl: "" 
+url: "https://LuccaQuintela.github.io"
+
+markdown: kramdown
+permalink: pretty
