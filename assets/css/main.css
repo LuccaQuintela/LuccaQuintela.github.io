@@ -254,6 +254,12 @@ input, select, textarea {
 		margin: 0 200px;
 	}
 
+/* Aesthic */
+
+	.no_underline {
+		text-decoration: none;
+	}
+
 /* Align */
 
 	.center {
@@ -2175,7 +2181,7 @@ input, select, textarea {
 		}
 
 		.homepage #header {
-			height: 35em;
+			height: 28em;
 		}
 
 /* Logo */
