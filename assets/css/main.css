@@ -1,6 +1,15 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
 
+/* 
+	For debugging, this line of code shows the edges of the div containers
+*/
+
+/* div {
+	border: 1px solid red !important;
+} */
+
+
 /*
 	Escape Velocity by HTML5 UP
 	html5up.net | @ajlkn
@@ -213,6 +222,95 @@ input, select, textarea {
 			}
 
 		}
+
+/* Horizontal Container */
+
+	.horizontal_container {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		margin: 0 auto;
+	}
+
+/* Spacing */
+
+	.right_padding {
+		padding-right: 100px;
+	}
+
+	.left_padding {
+		padding-left: 30px;
+	}
+
+	.full_padding {
+		padding: 100px;
+	}
+
+	.bottom_padding {
+		padding-bottom: 50px;
+	}
+
+	.wide_margins {
+		margin: 0 200px;
+	}
+
+/* Align */
+
+	.center {
+		margin: 0 auto;
+		width: fit-content;
+		max-width: 100%;
+	}
+
+	.center_text {
+		text-align: center;
+	} 
+
+	.flex_center {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.flex_spacing {
+		display: flex;
+		flex: 0 1 30%;
+		max-width: calc(33.33% - 20px); 
+		box-sizing: border-box;
+		gap: 20px;
+	}
+
+	.left_align_text {
+		text-align: left;
+	}
+
+/* Images */
+
+	.image_link {
+		border-radius: 30px;
+		transition: transform 0.3s ease;
+	}
+
+	.image_link img {
+		width: 50px;
+		height: auto;
+	}
+
+	.image_link img:hover {
+		transform: scale(1.05);
+		cursor: pointer;
+	}
+
+	.about_me {
+		width: 500px;
+		height: auto;
+		border-radius: 8px;
+	}
+
+	.icon {
+		width: 125px;
+		height: auto;
+	}
 
 /* Row */
 
@@ -2002,13 +2100,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #676ac6 url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #e97770 url("images/overlay.png");
+				background: #676ac6 url("images/overlay.png");
 				color: #fff;
 			}
 
@@ -2026,11 +2124,11 @@ input, select, textarea {
 			}
 
 		.wrapper.style3 {
-			background: #f3f3f3 url("images/overlay.png");
+			background: #8bca89 url("images/overlay.png");
 		}
 
 			.wrapper.style3 .title {
-				background: #f3f3f3 url("images/overlay.png");
+				background: #8bca89 url("images/overlay.png");
 				color: #484d55;
 			}
 
