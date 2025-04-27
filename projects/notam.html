@@ -43,15 +43,54 @@
 				<section id="intro" class="wrapper style1">
 					<div class="title">Overview</div>
 					<div class="container">
-                        quick description of the project and perhaps some pictures
+                        <div class="horizontal_container">
+                            <div class="container">
+                                <img src="../images/boeing_app_mockup.png" alt="Boeing App Mockup" class="project_picture">
+                            </div>
+                            <div class="container">
+                                <p class="style1">
+                                    Our team of CU Boulder computer science students was approached by Boeing/Jeppesen to design an automated solution that could save them 
+                                    an extensive amount of man power. 
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <p class="style1">
+                                At the moment, Boeing/Jeppesen has a team of people who are 24/7 dedicated to categorizing pieces of information
+                                that pilots need to read (NOTAMs) before taking off in order to fly safely. By categorizing these NOTAMs, Boeing/Jeppesen can 
+                                easily filter through the information and highlight the most important parts before it reaches the pilots, making their job easier. 
+                            </p>
+                            <p class="style1">
+                                We trained multiple different machine learning models, starting with pre-trained versions of MiniLM and DistilBERT and then fine-tuning it
+                                to focus on our specific use case, as is industry standard. The results vary between models, but they all outperform manual categorization 
+                                in terms of speed and consistency with all models having accuracies and F1 scores above 90%. This allows Boeing/Jeppesen to allocate their 
+                                resources more efficiently while maintaining high accuracy in NOTAM categorization.
+                            </p>
+                            <p class="style1">
+                                I also built an iOS app completely from scratch to demonstrate our models in a user friendly manner that anyone can understand. When the 
+                                user enters the app, they can choose which model they would like to use and then they can submit a NOTAM for classification. They have the choice
+                                between submitting their own or choosing from our provided library of examples. The app then parses the NOTAM in order to route it to the correct model.
+                                Next, it runs inference locally and then processes the model's output into a single, final prediction. Finally, it visualizes this to the user along with
+                                how confident the model is in that prediciton.
+                            </p>
+                            <p class="style1">
+                                Throughout this project, I actively utilized Swift to build the app and Python along with the PyTorch library to help train the models. I also used 
+                                the Pandas library to effectively clean and preprocess the vast amounts of training data we were using. We made use of agile methodology and employed
+                                sprints to break down development into manageable tasks, ensure continuous progress, and adapt quickly to evolving project requirements.
+                            </p>
+                        </div>
 					</div>
 				</section>
 
             <!-- Github Link -->
 				<section id="boeing_git" class="wrapper style2">
 					<div class="title">Source Code</div>
-					<div class="container center">
-                        <p>I invite you to check out the project on github!</p>
+					<div class="container">
+                        <p class="center_text">
+                            Unfortunately, our git repository for model training contains proprietary Boeing data and therefore cannot be shared.
+                            However, the code for the iOS demonstration app is public and I invite you to check out the project on github below. 
+                        </p>
                         <div class="center">
                             <a href="https://github.com/LuccaQuintela/NOTAMCategorizeriOS" target="_blank" class="image_link">
                                 <img src="../images/github.png" alt="GitHub Logo">

@@ -313,6 +313,12 @@ input, select, textarea {
 		border-radius: 8px;
 	}
 
+	.project_picture {
+		width: 350px;
+		height: auto;
+		border-radius: 8px;
+	}
+
 	.icon {
 		width: 125px;
 		height: auto;
